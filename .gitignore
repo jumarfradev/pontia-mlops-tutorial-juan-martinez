@@ -29,7 +29,13 @@ ENV/
 
 # --- MLflow cache (if used) ---
 mlruns/
-mlartifacts/
+artifacts/
+models/
+*.log
+*.h5
+*.pkl
+*.joblib
+*.ckpt
 
 # --- VSCode ---
 .vscode/
@@ -64,3 +70,13 @@ docker-compose.override.yml
 *.key
 .envrc
 .env.*
+
+# --- Data files ---
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.zip
+*.gz
