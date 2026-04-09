@@ -7,4 +7,7 @@ README JUAN
 	from model import train_model
 - Cambiar la URL de MLFLOW_URI = "http://57.151.65.76:5000"
 - Modificar (con nuestro propio nombre identificativo) el EXPERIMENT_NAME="jumarfra-adult-income"
-- Crear una variable de sistema dentro de Windows
+- Crear una variable de usuario/sistema dentro de Windows
+	AZURE_STORAGE_CONNECTION_STRING
+- Instalar los requirements en local
+- Se crea un entorno virtual para favorecer la puesta en marcha del modelo en local (opcional)
