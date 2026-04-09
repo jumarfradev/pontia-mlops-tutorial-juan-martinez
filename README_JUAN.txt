@@ -11,3 +11,6 @@ README JUAN
 	AZURE_STORAGE_CONNECTION_STRING
 - Instalar los requirements en local
 - Se crea un entorno virtual para favorecer la puesta en marcha del modelo en local (opcional)
+- Creamos nueva branch (para no trabajar en la rama main)
+- Creamos las carpetas .github/workflows
+- Dentro de /workflows, creamos integration.yml -> Para la automatización de pipelines (dentro de actions) 
