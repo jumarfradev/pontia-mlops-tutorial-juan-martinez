@@ -13,4 +13,5 @@ README JUAN
 - Se crea un entorno virtual para favorecer la puesta en marcha del modelo en local (opcional)
 - Creamos nueva branch (para no trabajar en la rama main)
 - Creamos las carpetas .github/workflows
-- Dentro de /workflows, creamos integration.yml -> Para la automatización de pipelines (dentro de actions) 
+- Dentro de /workflows, creamos integration.yml -> Para la automatización de pipelines cada vez que haya un pull request (dentro de actions)
+- Añadimos workflow_dispatch: ()
