@@ -91,7 +91,6 @@ app = FastAPI(lifespan=lifespan)
 
 @app.get("/health")
 def health():
-    raise Exception("Intentional error for rollback simulation")
     return {"status": "ok"}
 
 @app.post("/predict")
